@@ -1,0 +1,116 @@
+ - Welcome to Remix 0.20.3 - 
+
+You can use this terminal to: 
+
+    Check transactions details and start debugging.
+    Execute JavaScript scripts:
+     - Input a script directly in the command line interface 
+     - Select a Javascript file in the file explorer and then run \`remix.execute()\` or \`remix.exeCurrent()\`  in the command line interface  
+     - Right click on a JavaScript file in the file explorer and then click \`Run\` 
+
+The following libraries are accessible:
+
+    web3 version 1.5.2
+    ethers.js 
+    remix (run remix.help() for more info)
+
+creation of MultiSigWallet pending...
+ 
+[block: txIndex:]
+from: 0xfb8...79292
+to: MultiSigWallet.(constructor)
+value: 0 wei
+data: 0x608...b0033
+logs: 1
+hash: 
+status	true Transaction mined and execution succeed
+transaction hash	0xc60c774fda45fa514cae8d3700d253895920be0d04e7370f61b99eefe3147c5a
+from	0xfb84fc6Eb3C040f04B9A74149eC6AD3326079292
+to	MultiSigWallet.(constructor)
+gas	2355078 gas
+transaction cost	2355078 gas 
+hash	0xc60c774fda45fa514cae8d3700d253895920be0d04e7370f61b99eefe3147c5a
+input	0x608...b0033
+decoded input	{}
+decoded output	 - 
+logs	[
+	{
+		"from": "0x389b681767dBe7B88ab417D27024240219b492bd",
+		"topic": "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
+		"event": "OwnershipTransferred",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0xfb84fc6Eb3C040f04B9A74149eC6AD3326079292",
+			"previousOwner": "0x0000000000000000000000000000000000000000",
+			"newOwner": "0xfb84fc6Eb3C040f04B9A74149eC6AD3326079292"
+		}
+	}
+]
+val	0 wei
+ 
+creation of Gamao pending...
+ 
+[block: txIndex:]
+from: 0xfb8...79292
+to: Gamao.(constructor)
+value: 0 wei
+data: 0x608...00000
+logs: 3
+hash: 
+status	true Transaction mined and execution succeed
+transaction hash	0xc6d73f524d05ba5c0ebd0d6f01f01c5ba98a6f1126c62fe2a2fc18631eab5138
+from	0xfb84fc6Eb3C040f04B9A74149eC6AD3326079292
+to	Gamao.(constructor)
+gas	2656964 gas
+transaction cost	2656964 gas 
+hash	0xc6d73f524d05ba5c0ebd0d6f01f01c5ba98a6f1126c62fe2a2fc18631eab5138
+input	0x608...00000
+decoded input	{
+	"string name": "GAMA Utility Token",
+	"string symbol": "GAMAO",
+	"uint256 _initialSupply": "10000000000000000000000000000",
+	"address _communityDevelopment": "0xfb84fc6Eb3C040f04B9A74149eC6AD3326079292",
+	"address _technicalAndOperationalReserve": "0x389b681767dBe7B88ab417D27024240219b492bd"
+}
+decoded output	 - 
+logs	[
+	{
+		"from": "0xDB68bEa992b5776102c6D52B51C0cdfa282A5754",
+		"topic": "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
+		"event": "OwnershipTransferred",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0xfb84fc6Eb3C040f04B9A74149eC6AD3326079292",
+			"previousOwner": "0x0000000000000000000000000000000000000000",
+			"newOwner": "0xfb84fc6Eb3C040f04B9A74149eC6AD3326079292"
+		}
+	},
+	{
+		"from": "0xDB68bEa992b5776102c6D52B51C0cdfa282A5754",
+		"topic": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+		"event": "Transfer",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0xfb84fc6Eb3C040f04B9A74149eC6AD3326079292",
+			"2": "200000000000000000000000000",
+			"from": "0x0000000000000000000000000000000000000000",
+			"to": "0xfb84fc6Eb3C040f04B9A74149eC6AD3326079292",
+			"value": "200000000000000000000000000"
+		}
+	},
+	{
+		"from": "0xDB68bEa992b5776102c6D52B51C0cdfa282A5754",
+		"topic": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+		"event": "Transfer",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0x389b681767dBe7B88ab417D27024240219b492bd",
+			"2": "9800000000000000000000000000",
+			"from": "0x0000000000000000000000000000000000000000",
+			"to": "0x389b681767dBe7B88ab417D27024240219b492bd",
+			"value": "9800000000000000000000000000"
+		}
+	}
+]
+val	0 wei
+ 

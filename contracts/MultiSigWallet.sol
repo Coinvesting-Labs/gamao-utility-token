@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.4.22 <0.9.0;
 
-import "./StandardToken.sol";
+import "./Gamao.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract MultiSigWallet is Ownable{
@@ -23,7 +23,7 @@ contract MultiSigWallet is Ownable{
     }
 
     // Public variables
-    StandardToken public tokenContract;
+    Gamao public tokenContract;
     uint public constant quorum = 2;
 
     // Internal variables
@@ -123,7 +123,7 @@ contract MultiSigWallet is Ownable{
         emit TransactionCompleted(id, to, amount, transactions[id].createdBy, msg.sender);
     }
          
-    function setTokenContract(StandardToken _tokenContract) external onlyOwner canContractSet {
+    function setTokenContract(Gamao _tokenContract) external onlyOwner canContractSet {
         tokenContract = _tokenContract;
         contractSeted = true;
     }

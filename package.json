@@ -1,6 +1,6 @@
 {
   "name": "gamao-utility-token",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "GAMAO - GAMA Utility Token smart contracts.",
   "main": "index.js",
   "scripts": {
@@ -12,10 +12,10 @@
   },
   "keywords": [
     "GAMAO",
-    "token",
-    "BEP20",
+    "Token",
+    "BEP-20",
     "GAMA",
-    "utility"
+    "Utility"
   ],
   "author": "Coinvesting Labs",
   "license": "MIT",
@@ -24,6 +24,10 @@
   },
   "homepage": "https://gamao.io/",
   "dependencies": {
-    "@openzeppelin/contracts": "4.4.0"
+    "@openzeppelin/contracts": "^4.4.1"
+  },
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "^2.0.0",
+    "dotenv": "^10.0.0"
   }
 }
